@@ -1,0 +1,43 @@
+.product-description {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 80px;;
+}
+
+.product-images {
+    width: 50%;
+}
+
+.product-images img {
+    width: 100%;
+    display: none;
+}
+
+.product-thumbnails {
+    width: 50%;
+    
+}
+
+.product-thumbnails img {
+    width: 19%;
+    margin: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.product-info {
+    width: 50%;
+    padding: 20px;
+}
+
+#back-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
